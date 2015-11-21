@@ -1,4 +1,6 @@
 # QRCodeKit
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 QRCodeKit is a library for capturing and generating QR code in Swift.
 
 ## Usage
