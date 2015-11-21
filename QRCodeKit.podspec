@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/hokuron/QRCodeKit"
   s.license          = 'MIT'
   s.author           = { "Takuma Shimizu" => "anti.soft.b@gmail.com" }
-  s.source           = { :git => "https://github.com/hokuron/QRCodeKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/hokuron/QRCodeKit.git", :tag => "v#{s.version}" }
   s.social_media_url = 'https://twitter.com/hokuron'
 
   s.platform     = :ios, '8.0'
