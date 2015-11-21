@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2BBCF91BF72CA0000BC06B /* CaptureMetadataOutputObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BBCF81BF72CA0000BC06B /* CaptureMetadataOutputObjectType.swift */; };
+		AA7DF5761BE875F300C0759C /* QRCodeCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF5751BE875F300C0759C /* QRCodeCaptureViewController.swift */; };
 		AAF838CD1BE4A39A0025D554 /* QRCodeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF838CC1BE4A39A0025D554 /* QRCodeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAF838D41BE4A39A0025D554 /* QRCodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF838C91BE4A3990025D554 /* QRCodeKit.framework */; };
 		AAF838D91BE4A39A0025D554 /* QRCodeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF838D81BE4A39A0025D554 /* QRCodeKitTests.swift */; };
+		AAF838E41BE4A5170025D554 /* QRCodeCaptureCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF838E31BE4A5170025D554 /* QRCodeCaptureCamera.swift */; };
+		AAFFDF0F1BF95FC600291C76 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFFDF0E1BF95FC600291C76 /* QRCodeGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA2BBCF81BF72CA0000BC06B /* CaptureMetadataOutputObjectType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureMetadataOutputObjectType.swift; sourceTree = "<group>"; };
+		AA7DF5751BE875F300C0759C /* QRCodeCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeCaptureViewController.swift; sourceTree = "<group>"; };
 		AAF838C91BE4A3990025D554 /* QRCodeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRCodeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF838CC1BE4A39A0025D554 /* QRCodeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeKit.h; sourceTree = "<group>"; };
 		AAF838CE1BE4A39A0025D554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAF838D31BE4A39A0025D554 /* QRCodeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF838D81BE4A39A0025D554 /* QRCodeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeKitTests.swift; sourceTree = "<group>"; };
 		AAF838DA1BE4A39A0025D554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF838E31BE4A5170025D554 /* QRCodeCaptureCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeCaptureCamera.swift; sourceTree = "<group>"; };
+		AAFFDF0E1BF95FC600291C76 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				AAF838CC1BE4A39A0025D554 /* QRCodeKit.h */,
+				AAF838E31BE4A5170025D554 /* QRCodeCaptureCamera.swift */,
+				AA2BBCF81BF72CA0000BC06B /* CaptureMetadataOutputObjectType.swift */,
+				AA7DF5751BE875F300C0759C /* QRCodeCaptureViewController.swift */,
+				AAFFDF0E1BF95FC600291C76 /* QRCodeGenerator.swift */,
 				AAF838CE1BE4A39A0025D554 /* Info.plist */,
 			);
 			path = QRCodeKit;
@@ -194,6 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7DF5761BE875F300C0759C /* QRCodeCaptureViewController.swift in Sources */,
+				AAFFDF0F1BF95FC600291C76 /* QRCodeGenerator.swift in Sources */,
+				AAF838E41BE4A5170025D554 /* QRCodeCaptureCamera.swift in Sources */,
+				AA2BBCF91BF72CA0000BC06B /* CaptureMetadataOutputObjectType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -295,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,6 +324,7 @@
 		AAF838DE1BE4A39A0025D554 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +335,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hokuron.QRCodeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AAF838DF1BE4A39A0025D554 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -376,6 +395,7 @@
 				AAF838DF1BE4A39A0025D554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAF838E01BE4A39A0025D554 /* Build configuration list for PBXNativeTarget "QRCodeKitTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +404,7 @@
 				AAF838E21BE4A39A0025D554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
