@@ -2,9 +2,6 @@ Pod::Spec.new do |s|
   s.name             = "QRCodeKit"
   s.version          = "0.1.0"
   s.summary          = "QRCodeKit is a library for capturing and generating QR code in Swift."
-  s.description      = <<-DESC
-                         QRCodeKit is a library for capturing and generating QR code in Swift.
-                       DESC
   s.homepage         = "https://github.com/hokuron/QRCodeKit"
   s.license          = 'MIT'
   s.author           = { "Takuma Shimizu" => "anti.soft.b@gmail.com" }
